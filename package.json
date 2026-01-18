@@ -1,15 +1,15 @@
 {
-    "name": "theme-dracula",
-    "version": "2.25.1",
-    "displayName": "Dracula Theme Official",
-    "homepage": "https://draculatheme.com/",
-    "description": "The official Dracula Theme: a dark theme for many editors, shells, and more. 🦇",
-    "publisher": "dracula-theme",
+    "name": "dracula-high-contrast",
+    "version": "1.0.0",
+    "displayName": "Dracula High Contrast",
+    "homepage": "https://github.com/izumiz-dev/dracula-high-contrast",
+    "description": "A high contrast fork of the official Dracula Theme: pure black backgrounds and maximum accessibility. 🦇",
+    "publisher": "izumiz-dev",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
-        "package": "vsce package -o ./bin/dracula.vsix",
+        "package": "mkdir -p bin && vsce package -o ./bin/dracula-high-contrast.vsix",
         "vscode:prepublish": "pnpm run build",
         "vsce-publish": "vsce publish"
     },
