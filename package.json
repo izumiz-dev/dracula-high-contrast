@@ -10,7 +10,7 @@
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
         "package": "vsce package -o ./bin/dracula.vsix",
-        "vscode:prepublish": "npm run build",
+        "vscode:prepublish": "pnpm run build",
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
@@ -61,6 +61,11 @@
                 "label": "Dracula Theme Soft",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula-soft.json"
+            },
+            {
+                "label": "Dracula Theme High Contrast",
+                "uiTheme": "hc-black",
+                "path": "./theme/dracula-hc.json"
             }
         ]
     },
