@@ -2,7 +2,7 @@
 
 > This is a **High Contrast** fork of the official Dracula Theme. It forces backgrounds to pure black (`#000000`) and foregrounds to white (`#FFFFFF`) while preserving Dracula's syntax highlighting colors.
 
-![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
@@ -20,13 +20,9 @@ If you want to build the theme yourself:
 
 All instructions for the original theme can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
 
-## Team
+## Credits
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
-
-## Dracula PRO
-
-[![Dracula PRO](./dracula-pro.png)](https://draculatheme.com/pro)
+This theme is a fork of the official [Dracula Theme](https://github.com/dracula/visual-studio-code).
 
 ## License
 
